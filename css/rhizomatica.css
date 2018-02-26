@@ -186,8 +186,8 @@ body {
   }
   
   .content-section {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   
   .download-section {
@@ -207,8 +207,8 @@ body {
   
   @media (min-width: 992px) {
     .content-section {
-      padding-top: 200px;
-      padding-bottom: 200px;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
    
     #map {
@@ -281,6 +281,8 @@ body {
     background: rgba(255, 255, 255, 0.2);
     text-shadow: none;
   }
+  	
+img { max-width: 100%; }
   
   img::selection {
     background: transparent;
