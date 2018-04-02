@@ -1,3 +1,12 @@
+var images=['background.jpg','pots.jpg','pots2.jpg'];
+
+setInterval(function(){
+  var url=images[Math.floor(Math.random() * images.length)];
+  document.body.style.backgroundImage = 'url('+url+')';  
+},5000);
+
+
+
 (function($) {
   "use strict"; // Start of use strict
 
